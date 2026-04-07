@@ -1,0 +1,47 @@
+
+### `config.yaml`
+
+```yaml
+# Global configuration for Nd toxicology pipeline
+
+neodymium_smiles: "[Nd+3].[N+](=O)([O-])[O-].[N+](=O)([O-])[O-].[N+](=O)([O-])[O-]"
+
+docking_targets:
+  - name: NFE2L2_Nrf2
+    pdb: 4IQK
+    center_x: 20.0
+    center_y: 20.0
+    center_z: 20.0
+    size_x: 30
+    size_y: 30
+    size_z: 30
+  - name: GPX4
+    pdb: 6HN3
+    center_x: 15.0
+    center_y: 15.0
+    center_z: 15.0
+    size_x: 25
+    size_y: 25
+    size_z: 25
+  - name: SLC7A11
+    uniprot: Q9UPY5
+    center_x: 0.0
+    center_y: 0.0
+    center_z: 0.0
+    size_x: 40
+    size_y: 40
+    size_z: 40
+
+md_targets:
+  - name: Nrf2
+    pdb: 4IQK
+  - name: GPX4
+    pdb: 6HN3
+  - name: MT1
+    pdb: 1MHU
+
+# STRING confidence threshold
+string_score_threshold: 700
+
+# Centrality cutoffs
+centrality_degree_multiplier: 2.0

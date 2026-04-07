@@ -1,0 +1,31 @@
+Nd_toxicology/
+├── 01_target_screening.py
+├── 02_organ_targets_fetch.py
+├── 03_venn_intersection.py
+├── 04_ppi_network_construction.py
+├── 05_centrality_analysis.py
+├── 06_common_core_targets.py
+├── 07_go_kegg_enrichment.py
+├── 08_enrichment_visualization.py
+├── 09_molecular_docking_prep.py
+├── 10_run_autodock_vina.py
+├── 11_docking_analysis.py
+├── 12_md_setup_gromacs.py
+├── 13_run_md_simulations.py
+├── 14_md_trajectory_analysis.py
+├── 15_mmpbsa_calculation.py
+├── 16_organoid_data_analysis.py
+├── 17_correlation_integration.py
+├── 18_figure_generation.py
+├── 19_supplementary_tables.py
+├── 20_workflow_report.py
+├── requirements.txt
+├── environment.yml
+├── README.md
+├── LICENSE
+├── config.yaml
+├── data/
+│   ├── nd_smiles.txt
+│   └── example_targets.csv
+└── outputs/
+    └── (generated)
